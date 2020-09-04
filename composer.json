@@ -1,0 +1,26 @@
+{
+    "name": "maxpay/maxpay",
+    "description": "Maxpay payment module",
+    "authors": [
+        {
+            "name": "maxpay",
+            "email": "support@maxpay.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "maxpay/hpp-client": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maxpay\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module",
+    "author": "Maxpay",
+    "license": "BSD2"
+}
