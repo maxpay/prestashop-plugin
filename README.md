@@ -11,13 +11,13 @@ Module is installed via Module manager or copying the Module folder to the Prest
 5. All the other settings are done in Maxpay control panel (https://my.maxpay.com). 
 There you can specify success/decline/callback urls for test/prod mode.
 
-Recommendations are:
+Recommendations are:  
 
-Success url: {{YOUR_SITE_URL}}/index.php?fc=module&module=maxpay&controller=paymentreturn
-Decline url: {{YOUR_SITE_URL}}/index.php?fc=module&module=maxpay&controller=paymentreturn
-Callback url: {{YOUR_SITE_URL}}/index.php?fc=module&module=maxpay&controller=postback
+Success url: {{YOUR_SITE_URL}}/index.php?fc=module&module=maxpay&controller=paymentreturn  
+Decline url: {{YOUR_SITE_URL}}/index.php?fc=module&module=maxpay&controller=paymentreturn  
+Callback url: {{YOUR_SITE_URL}}/index.php?fc=module&module=maxpay&controller=postback  
 
-{{YOUR_SITE_URL}} - your site url (e.g. https://maxpay.com)
+{{YOUR_SITE_URL}} - your site url (e.g. https://maxpay.com)  
 
 ## USAGE
 Payment processing is done by redirecting the Customer to Maxpay payment page. 
